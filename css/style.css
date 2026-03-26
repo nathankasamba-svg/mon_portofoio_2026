@@ -22,7 +22,7 @@ body{
 
 header{
     background-color: white;
-    box-shadow: 2px 6px 10px rgba(0, 0, 0, 0s);
+    box-shadow: 2px 6px 10px rgba(0, 0, 0, 0.05);
     position: sticky;
     top: 0;
     z-index: 100;
@@ -126,4 +126,34 @@ ul li a:hover::after{
 .hero a:hover{
     background-color: var(--violet-fonce);
     transform: translate(-3px);
+}
+
+.a_propos{
+    width: 800px;
+    margin: 6rem auto;    
+    text-align: center;
+}
+section h2{
+    color: var(--violet-doux);
+    font-size: 2.6rem;
+    font-weight: 700;
+    position: relative;
+    margin-bottom: 1.2rem;
+    text-align: center;
+}
+section h2::after{
+    content: '';
+    width: 60px;
+    height: 4px;
+    background-color: var(--violet-doux);
+    display: block;
+    margin: 1.2rem auto;
+    border-radius: 2px;
+
+}
+
+section p{
+    margin-bottom: 2rem;
+    color: var(--gris-fonce);
+    font-size: 1.3rem;
 }
