@@ -76,7 +76,10 @@ ul li a:hover::after{
 }
 .active{
     color: var(--violet-doux);
-    text-decoration: underline;
+}
+
+.active::after{
+    width: 100%;
 }
 
 .hero{
@@ -325,7 +328,7 @@ footer a:hover{
 
 
 
-/* --- Styles de la page Projets --- */
+/* --- Styles de la page Projets et de la page passions--- */
 
 .projects-page {
     padding: 4rem 2rem;
